@@ -1,0 +1,19 @@
+INFO 日志名称 [2020-11-11 09:29:15,245] test_01_login.py -> line:20 ========== 登录 测试用例开始执行 ==========
+INFO 日志名称 [2020-11-11 09:29:19,272] base_page.py -> line:17 打开网址：http://47.93.37.55:81/#/login
+INFO 日志名称 [2020-11-11 09:29:23,672] login_page.py -> line:48 --- 输入登录用户名: xxwbxln ---
+INFO 日志名称 [2020-11-11 09:29:23,672] base_page.py -> line:26 等待元素：('xpath', '//input[@name="telephone"]') 可见
+INFO 日志名称 [2020-11-11 09:29:24,718] base_page.py -> line:43 查找元素：('xpath', '//input[@name="telephone"]')
+INFO 日志名称 [2020-11-11 09:29:24,802] login_page.py -> line:52 --- 输入登录密码: 123456 ---
+INFO 日志名称 [2020-11-11 09:29:24,802] base_page.py -> line:26 等待元素：('xpath', '//input[@name="password"]') 可见
+INFO 日志名称 [2020-11-11 09:29:25,829] base_page.py -> line:43 查找元素：('xpath', '//input[@name="password"]')
+INFO 日志名称 [2020-11-11 09:29:25,969] login_page.py -> line:55 --- 等待手动输入验证码 ---
+INFO 日志名称 [2020-11-11 09:29:35,969] login_page.py -> line:59 --- 点击登录按钮 ---
+INFO 日志名称 [2020-11-11 09:29:35,970] base_page.py -> line:26 等待元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button') 可见
+INFO 日志名称 [2020-11-11 09:29:37,037] base_page.py -> line:43 查找元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button')
+INFO 日志名称 [2020-11-11 09:29:37,226] login_page.py -> line:61 --- 登录成功，进入首页 ---
+INFO 日志名称 [2020-11-11 09:29:37,226] base_page.py -> line:26 等待元素：('xpath', '//p[@class="right-menu-icon-left"]') 可见
+INFO 日志名称 [2020-11-11 09:29:41,323] base_page.py -> line:26 等待元素：('xpath', '//p[@class="right-menu-icon-left"]') 可见
+INFO 日志名称 [2020-11-11 09:29:42,376] base_page.py -> line:43 查找元素：('xpath', '//p[@class="right-menu-icon-left"]')
+INFO 日志名称 [2020-11-11 09:29:42,511] base_page.py -> line:26 等待元素：('xpath', '//div[text()="退出"]') 可见
+INFO 日志名称 [2020-11-11 09:29:43,545] base_page.py -> line:43 查找元素：('xpath', '//div[text()="退出"]')
+INFO 日志名称 [2020-11-11 09:29:45,998] test_01_login.py -> line:24 ========== 登录 测试用例执行结束 ==========

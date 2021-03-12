@@ -1,0 +1,12 @@
+INFO 日志名称 [2020-11-12 09:02:55,182] base_page.py -> line:17 打开网址：http://47.93.37.55:81/#/login
+INFO 日志名称 [2020-11-12 09:02:59,686] page_登录页.py -> line:47 --- 输入登录用户名: xxwbxln ---
+INFO 日志名称 [2020-11-12 09:02:59,687] base_page.py -> line:27 等待元素：('xpath', '//input[@name="telephone"]') 可见
+INFO 日志名称 [2020-11-12 09:03:00,736] base_page.py -> line:53 查找元素：('xpath', '//input[@name="telephone"]')
+INFO 日志名称 [2020-11-12 09:03:00,820] page_登录页.py -> line:51 --- 输入登录密码: 123456 ---
+INFO 日志名称 [2020-11-12 09:03:00,821] base_page.py -> line:27 等待元素：('xpath', '//input[@name="password"]') 可见
+INFO 日志名称 [2020-11-12 09:03:01,844] base_page.py -> line:53 查找元素：('xpath', '//input[@name="password"]')
+INFO 日志名称 [2020-11-12 09:03:01,979] page_登录页.py -> line:54 --- 等待手动输入验证码 ---
+INFO 日志名称 [2020-11-12 09:03:11,980] page_登录页.py -> line:58 --- 点击登录按钮 ---
+INFO 日志名称 [2020-11-12 09:03:11,980] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button') 可见
+INFO 日志名称 [2020-11-12 09:03:13,042] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button')
+INFO 日志名称 [2020-11-12 09:03:13,113] page_登录页.py -> line:60 --- 登录成功，进入首页 ---

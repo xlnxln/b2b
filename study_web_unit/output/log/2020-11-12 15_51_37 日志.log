@@ -1,0 +1,77 @@
+INFO 日志名称 [2020-11-12 15:51:37,944] test_04_创建计磅单.py -> line:21 ========== 创建计磅单 测试用例开始执行 ==========
+INFO 日志名称 [2020-11-12 15:51:41,697] base_page.py -> line:17 打开网址：http://47.93.37.55:81/#/login
+INFO 日志名称 [2020-11-12 15:51:45,958] page_登录页.py -> line:47 --- 输入登录用户名: xxwbxln ---
+INFO 日志名称 [2020-11-12 15:51:45,959] base_page.py -> line:27 等待元素：('xpath', '//input[@name="telephone"]') 可见
+INFO 日志名称 [2020-11-12 15:51:47,003] base_page.py -> line:53 查找元素：('xpath', '//input[@name="telephone"]')
+INFO 日志名称 [2020-11-12 15:51:47,176] page_登录页.py -> line:51 --- 输入登录密码: 123456 ---
+INFO 日志名称 [2020-11-12 15:51:47,177] base_page.py -> line:27 等待元素：('xpath', '//input[@name="password"]') 可见
+INFO 日志名称 [2020-11-12 15:51:48,199] base_page.py -> line:53 查找元素：('xpath', '//input[@name="password"]')
+INFO 日志名称 [2020-11-12 15:51:48,368] page_登录页.py -> line:54 --- 等待手动输入验证码 ---
+INFO 日志名称 [2020-11-12 15:51:58,368] page_登录页.py -> line:58 --- 点击登录按钮 ---
+INFO 日志名称 [2020-11-12 15:51:58,369] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button') 可见
+INFO 日志名称 [2020-11-12 15:51:59,444] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button')
+INFO 日志名称 [2020-11-12 15:51:59,607] page_首页.py -> line:16 --- 等待账套信息可见 ---
+INFO 日志名称 [2020-11-12 15:51:59,607] base_page.py -> line:27 等待元素：('xpath', '//p[@class="right-menu-icon-left"]') 可见
+INFO 日志名称 [2020-11-12 15:52:05,863] page_首页.py -> line:23 --- 账套信息可见 ---
+INFO 日志名称 [2020-11-12 15:52:05,863] login.py -> line:29 --- 登录成功，进入首页 ---
+INFO 日志名称 [2020-11-12 15:52:05,864] page_首页.py -> line:51 --- 点击采购管理 ---
+INFO 日志名称 [2020-11-12 15:52:05,864] base_page.py -> line:27 等待元素：('xpath', '//span[text()="采购管理"]/parent::div') 可见
+INFO 日志名称 [2020-11-12 15:52:06,924] base_page.py -> line:53 查找元素：('xpath', '//span[text()="采购管理"]/parent::div')
+INFO 日志名称 [2020-11-12 15:52:07,031] page_首页.py -> line:56 --- 点击计磅单管理 ---
+INFO 日志名称 [2020-11-12 15:52:07,032] base_page.py -> line:27 等待元素：('xpath', '//span[text()="计磅单管理"]/parent::li') 可见
+INFO 日志名称 [2020-11-12 15:52:08,619] base_page.py -> line:53 查找元素：('xpath', '//span[text()="计磅单管理"]/parent::li')
+INFO 日志名称 [2020-11-12 15:52:08,782] page_首页.py -> line:58 --- 进入计磅单管理页 ---
+INFO 日志名称 [2020-11-12 15:52:08,782] page_计磅单管理页.py -> line:9 --- 点击未完成标签页 ---
+INFO 日志名称 [2020-11-12 15:52:08,783] base_page.py -> line:27 等待元素：('xpath', '//li[text()="未完成"]') 可见
+INFO 日志名称 [2020-11-12 15:52:10,514] base_page.py -> line:53 查找元素：('xpath', '//li[text()="未完成"]')
+INFO 日志名称 [2020-11-12 15:52:10,609] page_计磅单管理页.py -> line:14 --- 点击创建 ---
+INFO 日志名称 [2020-11-12 15:52:10,609] base_page.py -> line:27 等待元素：('xpath', '//span[text()="创建"]/parent::button') 可见
+INFO 日志名称 [2020-11-12 15:52:11,628] base_page.py -> line:53 查找元素：('xpath', '//span[text()="创建"]/parent::button')
+INFO 日志名称 [2020-11-12 15:52:11,725] page_创建计磅单页.py -> line:10 --- 输入订单编号 ： DD20201111000001 ---
+INFO 日志名称 [2020-11-12 15:52:11,726] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"订单编号")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-12 15:52:13,304] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"订单编号")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-12 15:52:13,638] page_创建计磅单页.py -> line:15 --- 点击采购经理人手机号输入框 ---
+INFO 日志名称 [2020-11-12 15:52:13,638] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"经理人手机号")]/following-sibling::div') 可见
+INFO 日志名称 [2020-11-12 15:52:14,666] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"经理人手机号")]/following-sibling::div')
+INFO 日志名称 [2020-11-12 15:52:14,805] base_page.py -> line:27 等待元素：('xpath', '//div[@aria-label="选择采购经理人"]//td[3]/div') 可见
+INFO 日志名称 [2020-11-12 15:52:15,832] base_page.py -> line:69 查找元素：('xpath', '//div[@aria-label="选择采购经理人"]//td[3]/div')
+INFO 日志名称 [2020-11-12 15:52:15,982] page_创建计磅单页.py -> line:24 --- 选择采购经理人 ： 17777733332 ---
+INFO 日志名称 [2020-11-12 15:52:15,983] page_创建计磅单页.py -> line:27 --- 选择采购经理人后点击确定 ---
+INFO 日志名称 [2020-11-12 15:52:15,983] base_page.py -> line:27 等待元素：('xpath', '//span[text()="确 定"]/parent::button') 可见
+INFO 日志名称 [2020-11-12 15:52:17,006] base_page.py -> line:53 查找元素：('xpath', '//span[text()="确 定"]/parent::button')
+INFO 日志名称 [2020-11-12 15:52:17,165] base_page.py -> line:36 等待元素：('xpath', '//p[text()="请选择采购经理人"]') 不可见
+INFO 日志名称 [2020-11-12 15:52:18,198] page_创建计磅单页.py -> line:36 --- 选择采购经理人成功 ---
+INFO 日志名称 [2020-11-12 15:52:18,198] page_创建计磅单页.py -> line:42 --- 点击收款账户输入框 ---
+INFO 日志名称 [2020-11-12 15:52:18,199] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"收款账户")]/following-sibling::div') 可见
+INFO 日志名称 [2020-11-12 15:52:19,274] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"收款账户")]/following-sibling::div')
+INFO 日志名称 [2020-11-12 15:52:19,398] base_page.py -> line:27 等待元素：('xpath', '//div[@aria-label="选择收款账户"]//td[2]/div') 可见
+INFO 日志名称 [2020-11-12 15:52:22,052] base_page.py -> line:69 查找元素：('xpath', '//div[@aria-label="选择收款账户"]//td[2]/div')
+INFO 日志名称 [2020-11-12 15:52:22,120] base_page.py -> line:27 等待元素：('xpath', '//div[@aria-label="选择收款账户"]//td[3]/div') 可见
+INFO 日志名称 [2020-11-12 15:52:23,159] base_page.py -> line:69 查找元素：('xpath', '//div[@aria-label="选择收款账户"]//td[3]/div')
+INFO 日志名称 [2020-11-12 15:52:23,224] page_创建计磅单页.py -> line:52 --- 查找收款银行卡号 ： 中国农业银行(0000) ---
+INFO 日志名称 [2020-11-12 15:52:23,272] page_创建计磅单页.py -> line:52 --- 查找收款银行卡号 ： 中国农业银行(0000) ---
+INFO 日志名称 [2020-11-12 15:52:23,303] page_创建计磅单页.py -> line:52 --- 查找收款银行卡号 ： 中国农业银行(0000) ---
+INFO 日志名称 [2020-11-12 15:52:23,315] page_创建计磅单页.py -> line:52 --- 查找收款银行卡号 ： 中国农业银行(0000) ---
+INFO 日志名称 [2020-11-12 15:52:23,328] page_创建计磅单页.py -> line:54 --- 查找收款银行卡号 ： 中国农业银行(0000) 成功---
+INFO 日志名称 [2020-11-12 15:52:23,328] base_page.py -> line:27 等待元素：('xpath', '//div[@aria-label="选择收款账户"]//td[4]/div') 可见
+ERROR 日志名称 [2020-11-12 15:52:43,833] base_page.py -> line:33 等待元素：('xpath', '//div[@aria-label="选择收款账户"]//td[4]/div') 可见失败
+Traceback (most recent call last):
+  File "E:\XLN_WorkSpace\study_web_unit\pageobject\base_page.py", line 30, in wait_ele_visible
+    wait.until(EC.visibility_of_element_located(loc))
+  File "E:\my_install\anaconda\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ERROR 日志名称 [2020-11-12 15:52:43,836] page_创建计磅单页.py -> line:59 --- 选择的收款账户银行卡不存在 ---
+Traceback (most recent call last):
+  File "E:\XLN_WorkSpace\study_web_unit\pageobject\计磅单管理\page_创建计磅单页.py", line 55, in select_bank_card
+    self.find_element(loc.bank_card_select_button(i+1)).click()
+  File "E:\XLN_WorkSpace\study_web_unit\pageobject\base_page.py", line 52, in find_element
+    self.wait_ele_visible(loc)
+  File "E:\XLN_WorkSpace\study_web_unit\pageobject\base_page.py", line 30, in wait_ele_visible
+    wait.until(EC.visibility_of_element_located(loc))
+  File "E:\my_install\anaconda\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO 日志名称 [2020-11-12 15:52:46,121] test_04_创建计磅单.py -> line:25 ========== 创建计磅单 测试用例执行结束 ==========

@@ -1,0 +1,17 @@
+create_order:
+  kind: "定价"  # 类别
+  manu_name: "天津市天重江天重工有限公司"  # 生产企业
+  address: "详细地址信息"  # 详细地址
+  product_name: ""  # 料型
+  size: "规格描述信息"  # 规格
+  sale_unit_price: "2000"  # 销售单价
+  purchase_unit_price: "1500"  # 采购单价
+  purchase_amount: "500"  # 采购数量
+  settle_cycle: "20"  # 结算周期
+#  begin_date: "2020-11-11"
+  begin_time: "2020-11-11 12:00"
+#  end_date: "2020-12-01"
+  end_time: "2020-12-01 14:00"
+  desc: "说明信息"  # 说明
+  is_visible: "是"  # 供货商可见
+  linker_name: "徐立楠外部黄牛"  # 采购经理人

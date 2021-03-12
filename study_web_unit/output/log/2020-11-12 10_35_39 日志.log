@@ -1,0 +1,21 @@
+INFO 日志名称 [2020-11-12 10:35:39,067] test_01_登录.py -> line:20 ========== 登录 测试用例开始执行 ==========
+INFO 日志名称 [2020-11-12 10:35:42,694] base_page.py -> line:17 打开网址：http://47.93.37.55:81/#/login
+INFO 日志名称 [2020-11-12 10:35:46,901] page_登录页.py -> line:47 --- 输入登录用户名: xxwbxln ---
+INFO 日志名称 [2020-11-12 10:35:46,901] base_page.py -> line:27 等待元素：('xpath', '//input[@name="telephone"]') 可见
+INFO 日志名称 [2020-11-12 10:35:47,955] base_page.py -> line:53 查找元素：('xpath', '//input[@name="telephone"]')
+INFO 日志名称 [2020-11-12 10:35:48,120] page_登录页.py -> line:51 --- 输入登录密码: 123456 ---
+INFO 日志名称 [2020-11-12 10:35:48,121] base_page.py -> line:27 等待元素：('xpath', '//input[@name="password"]') 可见
+INFO 日志名称 [2020-11-12 10:35:49,143] base_page.py -> line:53 查找元素：('xpath', '//input[@name="password"]')
+INFO 日志名称 [2020-11-12 10:35:49,313] page_登录页.py -> line:54 --- 等待手动输入验证码 ---
+INFO 日志名称 [2020-11-12 10:35:59,314] page_登录页.py -> line:58 --- 点击登录按钮 ---
+INFO 日志名称 [2020-11-12 10:35:59,314] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button') 可见
+INFO 日志名称 [2020-11-12 10:36:00,394] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button')
+INFO 日志名称 [2020-11-12 10:36:00,584] page_首页.py -> line:15 --- 等待账套信息可见 ---
+INFO 日志名称 [2020-11-12 10:36:00,584] base_page.py -> line:27 等待元素：('xpath', '//p[@class="right-menu-icon-left"]') 可见
+INFO 日志名称 [2020-11-12 10:36:02,646] page_首页.py -> line:22 --- 账套信息可见 ---
+INFO 日志名称 [2020-11-12 10:36:02,646] test_01_登录.py -> line:54 --- 登录成功 ---
+INFO 日志名称 [2020-11-12 10:36:02,647] base_page.py -> line:27 等待元素：('xpath', '//p[@class="right-menu-icon-left"]') 可见
+INFO 日志名称 [2020-11-12 10:36:03,699] base_page.py -> line:53 查找元素：('xpath', '//p[@class="right-menu-icon-left"]')
+INFO 日志名称 [2020-11-12 10:36:03,838] base_page.py -> line:27 等待元素：('xpath', '//div[text()="退出"]') 可见
+INFO 日志名称 [2020-11-12 10:36:04,863] base_page.py -> line:53 查找元素：('xpath', '//div[text()="退出"]')
+INFO 日志名称 [2020-11-12 10:36:07,295] test_01_登录.py -> line:24 ========== 登录 测试用例执行结束 ==========

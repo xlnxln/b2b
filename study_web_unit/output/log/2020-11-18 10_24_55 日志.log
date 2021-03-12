@@ -1,0 +1,5 @@
+INFO 日志名称 [2020-11-18 10:24:55,328] handle_logger.py -> line:56 测试输出日志
+ERROR 日志名称 [2020-11-18 10:24:55,328] handle_logger.py -> line:63 错误
+NoneType: None
+DEBUG 日志名称 [2020-11-18 10:24:55,329] handle_logger.py -> line:66 debug日志
+WARNING 日志名称 [2020-11-18 10:24:55,329] handle_logger.py -> line:67 warning日志

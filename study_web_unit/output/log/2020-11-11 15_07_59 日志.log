@@ -1,0 +1,83 @@
+INFO 日志名称 [2020-11-11 15:07:59,237] test_02_创建订单.py -> line:22 ========== 创建订单 测试用例开始执行 ==========
+INFO 日志名称 [2020-11-11 15:08:02,834] base_page.py -> line:17 打开网址：http://47.93.37.55:81/#/login
+INFO 日志名称 [2020-11-11 15:08:07,019] page_登录页.py -> line:47 --- 输入登录用户名: xxwbxln ---
+INFO 日志名称 [2020-11-11 15:08:07,019] base_page.py -> line:27 等待元素：('xpath', '//input[@name="telephone"]') 可见
+INFO 日志名称 [2020-11-11 15:08:08,046] base_page.py -> line:53 查找元素：('xpath', '//input[@name="telephone"]')
+INFO 日志名称 [2020-11-11 15:08:08,146] page_登录页.py -> line:51 --- 输入登录密码: 123456 ---
+INFO 日志名称 [2020-11-11 15:08:08,147] base_page.py -> line:27 等待元素：('xpath', '//input[@name="password"]') 可见
+INFO 日志名称 [2020-11-11 15:08:09,180] base_page.py -> line:53 查找元素：('xpath', '//input[@name="password"]')
+INFO 日志名称 [2020-11-11 15:08:09,294] page_登录页.py -> line:54 --- 等待手动输入验证码 ---
+INFO 日志名称 [2020-11-11 15:08:19,294] page_登录页.py -> line:58 --- 点击登录按钮 ---
+INFO 日志名称 [2020-11-11 15:08:19,295] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button') 可见
+INFO 日志名称 [2020-11-11 15:08:20,339] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button')
+INFO 日志名称 [2020-11-11 15:08:20,541] page_登录页.py -> line:60 --- 登录成功，进入首页 ---
+INFO 日志名称 [2020-11-11 15:08:20,541] page_首页.py -> line:28 --- 点击供货管理 ---
+INFO 日志名称 [2020-11-11 15:08:20,542] base_page.py -> line:27 等待元素：('xpath', '//span[text()="供货管理"]/parent::div') 可见
+INFO 日志名称 [2020-11-11 15:08:22,613] base_page.py -> line:53 查找元素：('xpath', '//span[text()="供货管理"]/parent::div')
+INFO 日志名称 [2020-11-11 15:08:22,780] page_首页.py -> line:34 --- 点击订单管理 ---
+INFO 日志名称 [2020-11-11 15:08:22,781] base_page.py -> line:27 等待元素：('xpath', '//span[text()="订单管理"]/parent::li') 可见
+INFO 日志名称 [2020-11-11 15:08:23,825] base_page.py -> line:53 查找元素：('xpath', '//span[text()="订单管理"]/parent::li')
+INFO 日志名称 [2020-11-11 15:08:23,981] page_首页.py -> line:36 --- 进入订单管理页 ---
+INFO 日志名称 [2020-11-11 15:08:23,982] page_订单管理页.py -> line:11 --- 点击创建订单按钮 ---
+INFO 日志名称 [2020-11-11 15:08:23,982] base_page.py -> line:27 等待元素：('xpath', '//span[text()="创建"]/parent::button') 可见
+INFO 日志名称 [2020-11-11 15:08:25,251] base_page.py -> line:53 查找元素：('xpath', '//span[text()="创建"]/parent::button')
+INFO 日志名称 [2020-11-11 15:08:25,436] page_订单管理页.py -> line:13 --- 成功进入创建订单页面 ---
+INFO 日志名称 [2020-11-11 15:08:25,437] page_创建订单页.py -> line:10 --- 选择采购类别：定价 ---
+INFO 日志名称 [2020-11-11 15:08:25,437] base_page.py -> line:27 等待元素：('xpath', '//span/parent::label') 可见
+INFO 日志名称 [2020-11-11 15:08:26,980] base_page.py -> line:69 查找元素：('xpath', '//span/parent::label')
+INFO 日志名称 [2020-11-11 15:08:27,147] page_创建订单页.py -> line:23 --- 选择生产企业：天津市天重江天重工有限公司 ---
+INFO 日志名称 [2020-11-11 15:08:27,147] base_page.py -> line:27 等待元素：('xpath', '//div[@class="zhe"]') 可见
+INFO 日志名称 [2020-11-11 15:08:28,170] base_page.py -> line:53 查找元素：('xpath', '//div[@class="zhe"]')
+INFO 日志名称 [2020-11-11 15:08:28,374] base_page.py -> line:27 等待元素：('xpath', '//tbody//tr/td[2]/div') 可见
+INFO 日志名称 [2020-11-11 15:08:29,400] base_page.py -> line:69 查找元素：('xpath', '//tbody//tr/td[2]/div')
+INFO 日志名称 [2020-11-11 15:08:29,880] page_创建订单页.py -> line:35 --- 选择生产企业后，点击确定 ---
+INFO 日志名称 [2020-11-11 15:08:29,881] base_page.py -> line:27 等待元素：('xpath', '//span[text()="选择生产企业"]/parent::div/following-sibling::div//span[text()="确 定"]/parent::button') 可见
+INFO 日志名称 [2020-11-11 15:08:30,902] base_page.py -> line:53 查找元素：('xpath', '//span[text()="选择生产企业"]/parent::div/following-sibling::div//span[text()="确 定"]/parent::button')
+INFO 日志名称 [2020-11-11 15:08:31,099] base_page.py -> line:36 等待元素：('xpath', '//p[text()="请选择生产企业"]') 不可见
+INFO 日志名称 [2020-11-11 15:08:32,127] page_创建订单页.py -> line:45 --- 选择生产企业成功 ---
+INFO 日志名称 [2020-11-11 15:08:32,127] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"地址")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-11 15:08:33,204] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"地址")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-11 15:08:33,267] page_创建订单页.py -> line:57 --- 选择料型 ---
+INFO 日志名称 [2020-11-11 15:08:33,268] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"料型")]/following-sibling::div//input') 可见
+INFO 日志名称 [2020-11-11 15:08:34,310] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"料型")]/following-sibling::div//input')
+INFO 日志名称 [2020-11-11 15:08:34,458] page_创建订单页.py -> line:59 --- 选择板料 ---
+INFO 日志名称 [2020-11-11 15:08:34,459] base_page.py -> line:27 等待元素：('xpath', '//span[text()="板料"]') 可见
+INFO 日志名称 [2020-11-11 15:08:36,043] base_page.py -> line:53 查找元素：('xpath', '//span[text()="板料"]')
+INFO 日志名称 [2020-11-11 15:08:36,190] page_创建订单页.py -> line:61 --- 选择一级 ---
+INFO 日志名称 [2020-11-11 15:08:36,209] base_page.py -> line:27 等待元素：('xpath', '//span[text()="一级"]') 可见
+INFO 日志名称 [2020-11-11 15:08:37,234] base_page.py -> line:53 查找元素：('xpath', '//span[text()="一级"]')
+INFO 日志名称 [2020-11-11 15:08:37,382] page_创建订单页.py -> line:65 --- 输入规格：规格描述信息 ---
+INFO 日志名称 [2020-11-11 15:08:37,383] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"规格")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-11 15:08:38,422] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"规格")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-11 15:08:38,580] page_创建订单页.py -> line:69 --- 输入销售单价：2000 ---
+INFO 日志名称 [2020-11-11 15:08:38,580] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"销售单价")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-11 15:08:39,601] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"销售单价")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-11 15:08:39,767] page_创建订单页.py -> line:73 --- 输入采购单价：1500 ---
+INFO 日志名称 [2020-11-11 15:08:39,767] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"采购单价")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-11 15:08:40,786] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"采购单价")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-11 15:08:40,881] page_创建订单页.py -> line:77 --- 输入采购数量：500 ---
+INFO 日志名称 [2020-11-11 15:08:40,881] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"采购数量")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-11 15:08:41,912] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"采购数量")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-11 15:08:42,115] page_创建订单页.py -> line:81 --- 输入结算周期：20 ---
+INFO 日志名称 [2020-11-11 15:08:42,115] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"结算周期")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-11 15:08:43,135] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"结算周期")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-11 15:08:43,308] page_创建订单页.py -> line:81 --- 输入结算周期：说明信息 ---
+INFO 日志名称 [2020-11-11 15:08:43,309] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"结算周期")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-11 15:08:44,330] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"结算周期")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-11 15:08:44,467] page_创建订单页.py -> line:85 --- 输入采购开始时间 ： 2020-11-11 12:00 ---
+INFO 日志名称 [2020-11-11 15:08:44,467] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"发布时间")]/following-sibling::div/input') 可见
+INFO 日志名称 [2020-11-11 15:08:45,484] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"发布时间")]/following-sibling::div/input')
+INFO 日志名称 [2020-11-11 15:08:45,656] base_page.py -> line:27 等待元素：('xpath', '//input[@placeholder="选择日期"]') 可见
+INFO 日志名称 [2020-11-11 15:08:46,688] base_page.py -> line:53 查找元素：('xpath', '//input[@placeholder="选择日期"]')
+INFO 日志名称 [2020-11-11 15:08:46,850] base_page.py -> line:27 等待元素：('xpath', '//input[@placeholder="选择时间"]') 可见
+INFO 日志名称 [2020-11-11 15:08:47,870] base_page.py -> line:53 查找元素：('xpath', '//input[@placeholder="选择时间"]')
+INFO 日志名称 [2020-11-11 15:08:48,083] base_page.py -> line:27 等待元素：('xpath', '//div[@x-placement="bottom-start"]//span[contains(text(),"确定")]') 可见
+ERROR 日志名称 [2020-11-11 15:09:08,599] base_page.py -> line:33 等待元素：('xpath', '//div[@x-placement="bottom-start"]//span[contains(text(),"确定")]') 可见失败
+Traceback (most recent call last):
+  File "E:\XLN_WorkSpace\study_web_unit\pageobject\base_page.py", line 30, in wait_ele_visible
+    wait.until(EC.visibility_of_element_located(loc))
+  File "E:\my_install\anaconda\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO 日志名称 [2020-11-11 15:09:10,912] test_02_创建订单.py -> line:26 ========== 创建订单 测试用例执行结束 ==========

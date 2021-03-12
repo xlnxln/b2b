@@ -1,0 +1,31 @@
+INFO 日志名称 [2020-11-12 17:25:37,458] test_04_创建计磅单.py -> line:21 ========== 创建计磅单 测试用例开始执行 ==========
+INFO 日志名称 [2020-11-12 17:25:41,086] base_page.py -> line:17 打开网址：http://47.93.37.55:81/#/login
+INFO 日志名称 [2020-11-12 17:25:45,385] page_登录页.py -> line:47 --- 输入登录用户名: xxwbxln ---
+INFO 日志名称 [2020-11-12 17:25:45,385] base_page.py -> line:27 等待元素：('xpath', '//input[@name="telephone"]') 可见
+INFO 日志名称 [2020-11-12 17:25:46,426] base_page.py -> line:53 查找元素：('xpath', '//input[@name="telephone"]')
+INFO 日志名称 [2020-11-12 17:25:46,539] page_登录页.py -> line:51 --- 输入登录密码: 123456 ---
+INFO 日志名称 [2020-11-12 17:25:46,544] base_page.py -> line:27 等待元素：('xpath', '//input[@name="password"]') 可见
+INFO 日志名称 [2020-11-12 17:25:47,565] base_page.py -> line:53 查找元素：('xpath', '//input[@name="password"]')
+INFO 日志名称 [2020-11-12 17:25:47,688] page_登录页.py -> line:54 --- 等待手动输入验证码 ---
+INFO 日志名称 [2020-11-12 17:25:57,689] page_登录页.py -> line:58 --- 点击登录按钮 ---
+INFO 日志名称 [2020-11-12 17:25:57,689] base_page.py -> line:27 等待元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button') 可见
+INFO 日志名称 [2020-11-12 17:25:58,758] base_page.py -> line:53 查找元素：('xpath', '//span[contains(text(),"立即登录")]/parent::button')
+INFO 日志名称 [2020-11-12 17:25:58,966] page_首页.py -> line:16 --- 等待账套信息可见 ---
+INFO 日志名称 [2020-11-12 17:25:58,967] base_page.py -> line:27 等待元素：('xpath', '//p[@class="right-menu-icon-left"]') 可见
+INFO 日志名称 [2020-11-12 17:26:01,034] page_首页.py -> line:23 --- 账套信息可见 ---
+INFO 日志名称 [2020-11-12 17:26:01,034] login.py -> line:29 --- 登录成功，进入首页 ---
+INFO 日志名称 [2020-11-12 17:26:01,035] page_首页.py -> line:51 --- 点击采购管理 ---
+INFO 日志名称 [2020-11-12 17:26:01,035] base_page.py -> line:27 等待元素：('xpath', '//span[text()="采购管理"]/parent::div') 可见
+INFO 日志名称 [2020-11-12 17:26:02,107] base_page.py -> line:53 查找元素：('xpath', '//span[text()="采购管理"]/parent::div')
+INFO 日志名称 [2020-11-12 17:26:02,223] page_首页.py -> line:56 --- 点击计磅单管理 ---
+INFO 日志名称 [2020-11-12 17:26:02,224] base_page.py -> line:27 等待元素：('xpath', '//span[text()="计磅单管理"]/parent::li') 可见
+INFO 日志名称 [2020-11-12 17:26:03,803] base_page.py -> line:53 查找元素：('xpath', '//span[text()="计磅单管理"]/parent::li')
+INFO 日志名称 [2020-11-12 17:26:03,921] page_首页.py -> line:58 --- 进入计磅单管理页 ---
+INFO 日志名称 [2020-11-12 17:26:03,922] page_计磅单管理页.py -> line:9 --- 点击未完成标签页 ---
+INFO 日志名称 [2020-11-12 17:26:03,922] base_page.py -> line:27 等待元素：('xpath', '//li[text()="未完成"]') 可见
+INFO 日志名称 [2020-11-12 17:26:05,644] base_page.py -> line:53 查找元素：('xpath', '//li[text()="未完成"]')
+INFO 日志名称 [2020-11-12 17:26:05,787] page_计磅单管理页.py -> line:14 --- 点击创建 ---
+INFO 日志名称 [2020-11-12 17:26:05,788] base_page.py -> line:27 等待元素：('xpath', '//span[text()="创建"]/parent::button') 可见
+INFO 日志名称 [2020-11-12 17:26:06,815] base_page.py -> line:53 查找元素：('xpath', '//span[text()="创建"]/parent::button')
+INFO 日志名称 [2020-11-12 17:26:06,956] page_创建计磅单页.py -> line:115 --- 上传计磅单图片 ---
+INFO 日志名称 [2020-11-12 17:26:09,285] test_04_创建计磅单.py -> line:25 ========== 创建计磅单 测试用例执行结束 ==========

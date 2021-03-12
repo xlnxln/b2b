@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Autotest_PO/.idea/B2BAutoTest1.iml" filepath="$PROJECT_DIR$/../Autotest_PO/.idea/B2BAutoTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../py/.idea/py.iml" filepath="$PROJECT_DIR$/../py/.idea/py.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../study_python/.idea/study_python.iml" filepath="$PROJECT_DIR$/../study_python/.idea/study_python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/study_web.iml" filepath="$PROJECT_DIR$/.idea/study_web.iml" />
+    </modules>
+  </component>
+</project>
